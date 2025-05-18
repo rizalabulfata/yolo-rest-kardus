@@ -1,0 +1,28 @@
+# API Framework
+fastapi
+uvicorn[standard]
+
+# YOLOv8 and computer vision
+ultralytics>=8.0.0
+opencv-python-headless>=4.8.0
+pillow>=10.0.0
+
+# FastCGI support
+flup
+#asgi-wsgi
+
+# Request handling
+python-multipart
+pydantic
+
+# Data processing
+numpy
+
+# Compression
+#gzip
+
+# Temporary file handling
+python-magic
+
+# Optional but recommended for production
+gunicorn
